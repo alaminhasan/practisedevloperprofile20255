@@ -235,3 +235,58 @@ textarea{
     border: none;
     
 }
+
+
+/*Responsive Design*/
+/*Responsive Design*/
+/*Responsive Design*/
+
+@media screen and (max-width: 576px) {
+            .menubar,
+             .hero-text-banner-container, 
+             .course-box-container,
+             .education-experince-container,
+             .footer-container {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .menubar ul{
+                flex-direction: column;
+            }
+            .left-textpart{
+                padding-left: 0px;
+                align-items: center;
+                max-width: 576px;
+            }
+            .about-container{
+                margin: 0px;
+            }
+            .box-container{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .whatdo-container> p{
+                padding: 0px;
+            }
+            .right-hero-image{
+                padding: 0px;
+                max-width: 576px;
+            }
+            .box-skill{
+                padding-left: 10px;
+            }
+            .left-textpart{
+               
+                width: 576px;
+            }
+            .right-hero-image img{
+                max-width: 576px;
+            }
+            .input[type=text], text-area{
+                max-width: 300px;
+            }
+            
+                
+
+}
