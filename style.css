@@ -83,7 +83,7 @@
     justify-content: center;
     align-items: start;
     padding-left: 260px;
-    width: 700px;
+    max-width: 700px;
 
 }
 .left-textpart h2{
@@ -281,7 +281,7 @@ textarea{
                 width: 576px;
             }
             .right-hero-image img{
-                max-width: 576px;
+                max-width: 300px;
             }
             .input[type=text], text-area{
                 max-width: 300px;
